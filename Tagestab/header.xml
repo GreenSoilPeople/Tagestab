@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<header>
+  <h name="Commission number" altname="FZGKOMM" type="string" />
+  <h name="Make" altname="FZGJAHR" type="string" />
+  <h name="Commission Year" altname="FABFAB" type="string" />
+  <h name="VIN" altname="FZGFGNR" type="string" />
+  <h name="Engine number" altname="FZGMOTN" type="string" />
+  <h name="Model year VW" altname="FZAMJVW" type="string" />
+  <h name="Model Year" altname="FZAMODJ" type="string" />
+  <h name="Model Code" altname="MODMODI" type="string" />
+  <h name="Model name" altname="MODMBEZ" type="string" />
+  <h name="Model group" altname="MGTMG" type="string" />
+  <h name="Color code" altname="FARBFARB" type="string" />
+  <h name="Upholstery code" altname="POLPOL" type="string" />
+  <h name="Equipment codes" altname="FZAAUST" type="string" />
+  <h name="Status" altname="STASTAT" type="string" />
+  <h name="GI receipt date" altname="FZGGIWE" type="date" />
+  <h name="Schedule Week (week year)" altname="FZAPLJW" type="string" />
+  <h name="First planned Week (week year)" altname="FZAESGW" type="string" />
+  <h name="Actual planned Week (week year) " altname="FZAASGW" type="string" />
+  <h name="Production Week (week year)" altname="FZGPRJW" type="string" />
+  <h name="Date of manufacture" altname="FZGPRDA" type="date" />
+  <h name="Production number" altname="FZGPRNR" type="string" />
+  <h name="Order date" altname="FZABEDA" type="date" />
+  <h name="Scheduling confirmation" altname="FZAEIDA" type="date" />
+  <h name="Transfer date" altname="FZAUEDA" type="date" />
+  <h name="Confirmation date" altname="FZABSDA" type="date" />
+  <h name="GI-transfer order date" altname="FZGGITA" type="date" />
+  <h name="Kz. Sales / Reserved " altname="FZGVRK" type="string" />
+  <h name="Client identifier" altname="FZGKKZ" type="string" />
+  <h name="Typed (Y / N)" altname="FZGTS" type="string" />
+  <h name="Invoiced (Y / N)" altname="FZGFAKT" type="string" />
+  <h name="Vehicle" altname="FARTART" type="string" />
+  <h name="Date of sale" altname="FHDVDA" type="date" />
+  <h name="Delivery date" altname="FHDZUST" type="date" />
+  <h name="Dealer takeover" altname="FHDUEDA" type="date" />
+  <h name="Composite main operation" altname="FHDVHBT" type="number" />
+  <h name="Trader" altname="HDLHDL" type="number" />
+  <h name="PIA indicator for traders" altname="PIAKZ" type="string" />
+  <h name="Dealer name" altname="HDLBEZ" type="string" />
+  <h name="Workshop / Agent" altname="WSTWST" type="number" />
+  <h name="Workshop / Agent-name" altname="WSTBEZ" type="string" />
+  <h name="Intermediaries" altname="FHDVERM" type="number" />
+  <h name="Intermediary designation" altname="FHDVEBEZ" type="string" />
+  <h name="Selling price net dealer" altname="FPRSVKNHDL" type="number" />
+  <h name="Selling price net customer" altname="FPRSVKNKND" type="number" />
+  <h name="Seller number" altname="FKDVKNR" type="number" />
+  <h name="Customer sales date" altname="FKDGDAV" type="date" />
+  <h name="Informal" altname="ANRANR" type="string" />
+  <h name="Title" altname="FKDTIT" type="string" />
+  <h name="First given name" altname="FKDVNAM" type="string" />
+  <h name="Surname" altname="FKDNNAM" type="string" />
+  <h name="Country code" altname="PLZLKZ" type="string" />
+  <h name="Postal code" altname="PLZPLZ" type="string" />
+  <h name="Place" altname="FKDORT" type="string" />
+  <h name="Authorities order number" altname="FKDBANR" type="string" />
+  <h name="Wholesalers" altname="FKDGA1" type="string" />
+  <h name="TS-valid from" altname="FTSGDAV" type="date" />
+  <h name="TS Printing date" altname="FTSDDA" type="date" />
+  <h name="TS number" altname="FTSTSNR" type="number" />
+  <h name="Registered Guarantee Date" altname="FGADAGADA" type="date" />
+  <h name="Guarantee Date VFW" altname="FTSGADAV" type="date" />
+  <h name="Road" altname="FKDSTR" type="string" />
+  <h name="Insurance Association Contribution Date" altname="FTSVVOTI" type="date" />
+  <h name="VWW-invoice date - min" altname="FWRVADA_MIN" type="date" />
+  <h name="-min Factory invoice number" altname="FWRWRNR_MIN" type="string" />
+  <h name="Invoice date -max" altname="FAKFDA_MAX" type="date" />
+  <h name="Invoice date - max" altname="FAKFNR_MAX" type="number" />
+  <h name="Margin date" altname="FZGSPDA" type="date" />
+  <h name="Invoice price date" altname="FZGFPDA" type="date" />
+  <h name="Billing Forced date" altname="FHDFAKT" type="date" />
+  <h name="Industry-audience" altname="FSOZBRAN" type="string" />
+  <h name="Industry-text" altname="SOZBTXT" type="string" />
+  <h name="Regular" altname="FSOZSTAM" type="string" />
+  <h name="Year of birth / date" altname="FSOZGEB" type="string" />
+  <h name="Venture" altname="FSOZVORW" type="string" />
+  <h name="Brand venture" altname="FSOZVMRK" type="string" />
+  <h name="Brand-text" altname="SOZFTXT" type="string" />
+  <h name="Model venture" altname="FSOZVMOD" type="string" />
+  <h name="Model Text" altname="SOZMTXT" type="string" />
+  <h name="Exchange Kz." altname="FSOZTAU" type="string" />
+  <h name="Year venture" altname="FSOZVBJ" type="string" />
+  <h name="NV / VFW customer" altname="FSOZART" type="string" />
+  <h name="Seller Title" altname="VKANREDE" type="string" />
+  <h name="Seller" altname="VKTITEL" type="string" />
+  <h name="Seller surname" altname="VKNACHNAME" type="string" />
+  <h name="Seller first name" altname="VKVORNAME" type="string" />
+  <h name="Seller number Vfw" altname="VKDVKNR" type="number" />
+  <h name="Valid from Vfw" altname="VKDGDAV" type="date" />
+  <h name="Informal Vfw" altname="ANRANR_VFW" type="string" />
+  <h name="Title Vfw" altname="VKDTIT_VFW" type="string" />
+  <h name="First name Vfw" altname="VKDVNAM_VFW" type="string" />
+  <h name="Surname Vfw" altname="VKDNNAM_VFW" type="string" />
+  <h name="Country code Vfw" altname="PLZLKZ_VKD" type="string" />
+  <h name="Postcode Vfw" altname="PLZPLZ_VKD" type="string" />
+  <h name="Place Vfw" altname="VKDORT" type="string" />
+  <h name="Road Vfw" altname="VKDSTR" type="string" />
+  <h name="Financial year" altname="GDATJAHR" type="string" />
+  <h name="Fiscal month" altname="GDATMON" type="string" />
+  <h name="Delivery zone work" altname="LIZWZON" type="string" />
+  <h name="Zone of the trader" altname="FHDZWLA" type="string" />
+  <h name="Current delivery week" altname="FZGLWON" type="string" />
+  <h name="PS" altname="TMOTPS" type="number" />
+  <h name="KW" altname="TMOTKW" type="number" />
+  <h name="Displacement" altname="TMOTHUBR" type="number" />
+  <h name="Fuel" altname="TREIBANZKZ" type="string" />
+  <h name="Door count" altname="MODTANZ" type="number" />
+  <h name="Transmission" altname="GETART" type="string" />
+  <h name="Drive" altname="ANTANTR" type="string" />
+  <h name="NOVA" altname="TAUSNOVA" type="number" />
+  <h name="Drive 1 Consumption city" altname="TAUSVB1" type="number" />
+  <h name="Drive 1 country of consumption" altname="TAUSVB2" type="number" />
+  <h name="Drive 1 consumption " altname="TAUSVB3" type="number" />
+  <h name="CO2 value for tax calculation" altname="TAUSCO2" type="number" />
+  <h name="Particles" altname="TAUSPART" type="number" />
+  <h name="Diselpartikelgrenzwert met (Y / N)" altname="TMOZPGWE" type="string" />
+  <h name="NOx value" altname="TAUSNOX" type="number" />
+  <h name="Varia" altname="VARIAS" type="string" />
+  <h name="Done message - ZP8" altname="FZGZP8" type="date" />
+  <h name="Financing" altname="FKDFIN" type="string" />
+  <h name="Factory price" altname="FWRWRPR_SUM" type="number" />
+  <h name="Current checkpoint date" altname="FZGCPADATE" type="date" />
+  <h name="IFA number" altname="FZGIFA" type="string" />
+  <h name="Private telephone" altname="FKDTNR_PRI" type="string" />
+  <h name="Telephone company" altname="FKDTNR_FIR" type="string" />
+  <h name="Phone Cell" altname="FKDTNR_HAN" type="string" />
+  <h name="Order dealers" altname="FZGBHDL" type="number" />
+  <h name="Due date Or payment" altname="FAKFDAT_MAX" type="date" />
+  <h name="Clearing date" altname="FAKAGDA" type="date" />
+  <h name="Internal comment" altname="KOMM_INTERN" type="string" />
+  <h name="Fakturencodes" altname="FAKCODE_ALLE" type="string" />
+  <h name="GI Speditionskey" altname="FZGGISKEY" type="string" />
+  <h name="Model Group Name" altname="MGTBEZ" type="string" />
+  <h name="Referencing (V = vorl customer / K = Customer / F = Billing / T = type certificate.)" altname="FKDAKZ" type="string" />
+  <h name="Down-payment as amount" altname="FANZBETR" type="number" />
+  <h name="Base price for gross payment" altname="FANZBPRS" type="number" />
+  <h name="Invoice gross final payment" altname="FANZRPRS" type="number" />
+  <h name="CIP model price" altname="CIP_MODEL" type="number" />
+  <h name="CIP Price Optional extras / color / cushion" altname="CIP_OPTIONAL" type="number" />
+  <h name="CIP total price" altname="CIP_TOTAL" type="number" />
+  <h name="Dealer comment (FKOMART = 6)" altname="DEALER_COMMENT" type="string" />
+  <h name="Difference temp. customer to end customer in days" altname="TAGE_ZU_VORLK" type="number" />
+  <h name="Variant" altname="COCVAR" type="string" />
+  <h name="Destination location" altname="FLAGORTN" type="string" />
+  <h name="Stand Day Trader" altname="FZGSTHDL" type="number" />
+  <h name="Leave-arrived at Hdl" altname="FLAGGDAV" type="date" />
+  <h name="1. Customers date " altname="FKDGDAV_MIN" type="date" />
+  <h name="Date end user" altname="ENDKUNDE" type="date" />
+  <h name="Customs endorsement:   Customs date" altname="FZOLLBDATE" type="date" />
+  <h name="Status of Charge" altname="FZOLLSTAT" type="string" />
+  <h name="Status of clearance text" altname="FZOLLSTATTXT" type="string" />
+  <h name="FOB price customs invoice" altname="FZOREFOB" type="number" />
+  <h name="Factory Distributor" altname="FHDWHDL" type="string" />
+  <h name="File prohibition on disclosure (J = data may Not BE FURTHER / N = DATA MuST BE FURTHER, IN CROSS DEFAULT N)" altname="FKDFREI" type="string" />
+  <h name="E-mail" altname="FKDTNR_EMAIL" type="string" />
+  <h name="Commission no external" altname="FZGKOMMEX" type="string" />
+  <h name="Trim level" altname="AUVAUV" type="string" />
+  <h name="ICO number." altname="FKDICO" type="string" />
+  <h name="Purchase price gross GI" altname="FPRSEKBGI" type="number" />
+  <h name="Branch name" altname="BRABEZ" type="string" />
+  <h name="Contact person" altname="KONTAKTPERSON" type="string" />
+  <h name="ICO number." altname="VKDICO" type="string" />
+  <h name="Accessibility company" altname="FKDTAKTIV_FIR" type="string" />
+  <h name="Accessibility Cell" altname="FKDTAKTIV_HAN" type="string" />
+  <h name="Accessibility private" altname="FKDTAKTIV_PRI" type="string" />
+  <h name="Model grouping category designation" altname="MOGRPBEZ" type="string" />
+  <h name="UID number" altname="FKDUID" type="string" />
+  <h name="Total billing" altname="FAKWERT_SUM" type="number" />
+  <h name="Stand days GI" altname="FZGSTGI" type="number" />
+  <h name="Forum" altname="GPTNKB_FORUM" type="string" />
+  <h name="Billing amount in foreign currency" altname="FAKWERTF_SUM" type="number" />
+  <h name="Color name long" altname="MGFABEZF" type="string" />
+  <h name="TS number / blank TS number" altname="BLANKO_TS_NR" type="number" />
+  <h name="Version according to factory logic" altname="TAUSCVERS" type="string" />
+  <h name="GVW" altname="TAUSHZGW" type="number" />
+  <h name="Maximum load capacity" altname="TAUSHZNL" type="number" />
+  <h name="Vehicle license" altname="FGADAKFZKZ" type="string" />
+  <h name="Final payment status" altname="FANZRSTAT" type="string" />
+  <h name="Lock number" altname="SPERREN" type="string" />
+  <h name="Vfw Exit Date" altname="FTSVABD" type="date" />
+  <h name="Currency" altname="FPRSVALUTA" type="string" />
+  <h name="Currency EK" altname="FPRSVALUTAEK" type="string" />
+  <h name="Shipping data transmitted to the forwarding" altname="FVDUEDA" type="date" />
+  <h name="Shipments for vehicle status (01 = arrival / departure 02 =)" altname="FVDFSTAT" type="string" />
+  <h name="Nummer des Kunden laut SAP" altname="FKDNR" type="number" />
+  <h name="PBV-Vertragsnummer" altname="VTRKDNR" type="number" />
+  <h name="PBV-Laufende Nummer" altname="VTRLFNR" type="number" />
+  <h name="Finanzierungsgesellschaft" altname="FINGESKZ" type="string" />
+  <h name="Garantiedatum/AaK laut Tagesbericht" altname="FGADATGBE" type="date" />
+  <h name="Modelltyp" altname="MGTMTYP" type="string" />
+  <h name="PBV-Kz." altname="PBVKZ" type="string" />
+  <h name="Händlergruppe" altname="BGRPHGRP" type="string" />
+  <h name="Telefon Fax" altname="FKDTNR_FAX" type="string" />
+  <h name="Erreichbarkeit Fax" altname="FKDTAKTIV_FAX" type="string" />
+  <h name="FCPCPART" altname="FCPCPART" type="string" />
+  <h name="FZAMJCOM" altname="FZAMJCOM" type="string" />
+  <h name="FVDVSA" altname="FVDVSA" type="string" />
+  <h name="FVDLNR" altname="FVDLNR" type="string" />
+  <h name="FVDTNR" altname="FVDTNR" type="string" />
+  <h name="FZGWERK" altname="FZGWERK" type="string" />
+  <h name="FGLCDWBEZ" altname="FGLCDWBEZ" type="string" />
+  <h name="FPRSVKBHDL" altname="FPRSVKBHDL" type="string" />
+  <h name="FZGJEV" altname="FZGJEV" type="string" />
+  <h name="FZGVLWO" altname="FZGVLWO" type="string" />
+  <h name="FHDHDLFP" altname="FHDHDLFP" type="string" />
+  <h name="FHDHDLFPDAT" altname="FHDHDLFPDAT" type="string" />
+  <h name="FZGOSALE" altname="FZGOSALE" type="string" />
+</header>

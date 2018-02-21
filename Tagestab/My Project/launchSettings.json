@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Tagestab": {
+      "commandName": "Project",
+      "commandLineArgs": "D:\\TEST\\tagestab_csv\\nv90q_nwttagestab.csv D:\\TEST\\tagestab_csv\\output"
+    }
+  }
+}
