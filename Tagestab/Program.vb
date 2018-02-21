@@ -1,4 +1,3 @@
-Imports System
 Imports System.IO
 Imports System.Xml
 
@@ -6,18 +5,20 @@ Module Program
 
     Private filenamearray As New Hashtable From {{"A", "Audi"}, {"C", "Skoda"}, {"L", "Lnf"}, {"P", "Porsche"}, {"S", "Seat"}, {"V", "Volkwagen"}}
     Private header(1)() As String
+    Private logFile As String
     Private input As String
     Private output As String
     Private Const cstUSAGE As String = "Usage: tagestab.exe <input file> <output folder>"
 
     Sub Main(args As String())
-        If LoadHeader() <> 0 Then Exit Sub
+
+        If Init() <> 0 Then Exit Sub
 
         If args.Count = 2 Then
             If File.Exists(args(0)) AndAlso Directory.Exists(args(1)) Then
                 input = args(0)
                 output = args(1)
-                ProccessFile(input)
+                ProcessFile(input)
             End If
         Else
             Console.WriteLine("Ivalid argumets specified.")
@@ -26,7 +27,24 @@ Module Program
         End If
     End Sub
 
-    Private Sub ProccessFile(path As String)
+    Private Function Init() As Integer
+
+        Dim status As Integer = 0
+
+        logFile = "log.txt"
+
+        If Not File.Exists(logFile) Then
+            File.Create(logFile)
+        End If
+
+        status = LoadHeader()
+
+        Return status
+
+    End Function
+
+    Private Sub ProcessFile(path As String)
+        Dim fileHeader As String()
         Dim stpw As New Stopwatch
         Dim line As String()
         Dim Q As Queue(Of String()) = New Queue(Of String())
@@ -39,13 +57,16 @@ Module Program
 
         Using sr As New StreamReader(input)
 
-            'skip header
-            sr.ReadLine()
+            'read file header
+            fileHeader = sr.ReadLine().Split(",")
+
+            ' if file columns < header exit
+            If fileHeader.Length < header(0).Length Then Exit Sub
 
             While Not sr.EndOfStream
                 line = sr.ReadLine.Split(""",""")
 
-                For i As Integer = 0 To header(1).Length - 1
+                For i As Integer = 0 To header(0).Length - 1
 
                     line(i) = line(i).Replace("""", "").Replace(";", ".")
                     'FZGPRNR: add 0
