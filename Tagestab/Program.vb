@@ -31,11 +31,11 @@ Module Program
 
         Dim status As Integer = 0
 
-        logFile = "log.txt"
+        'logFile = "log.txt"
 
-        If Not File.Exists(logFile) Then
-            File.Create(logFile)
-        End If
+        'If Not File.Exists(logFile) Then
+        '    File.Create(logFile)
+        'End If
 
         status = LoadHeader()
 
@@ -60,8 +60,12 @@ Module Program
             'read file header
             fileHeader = sr.ReadLine().Split(",")
 
-            ' if file columns < header exit
-            If fileHeader.Length < header(0).Length Then Exit Sub
+            ' if file columns < header use file header
+            If fileHeader.Length <> header(0).Length Then
+                header(0) = fileHeader
+                header(1) = fileHeader
+                Exit Sub
+            End If
 
             While Not sr.EndOfStream
                 line = sr.ReadLine.Split(""",""")
@@ -115,7 +119,7 @@ Module Program
 
         Try
             For Each s As String In filenamearray.Keys
-                Dim arr As String()() = q.Where(Function(x As String()) x(2) = """" & s & """").ToArray
+                Dim arr As String()() = q.Where(Function(x As String()) x(2) = $"""{s}""").ToArray
 
                 WriteCSV(arr)
 
